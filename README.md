@@ -9,9 +9,10 @@ Visit the live portfolio here: [Github](https://rooted-syntax.github.io/Portfoli
 ## 🛠 Tech Stack
 - **Frontend**: HTML, CSS, JavaScript (or React/Vue if applicable)
 - **Backend Projects**: Java 17+, Spring Boot, Python, REST/gRPC APIs
-- **Cloud & DevOps**: Azure, AWS, Netlify, GitHub Pages
+- **Cloud & DevOps**: Azure, AWS, Netlify, GitHub Pages, Bitbucket, Jenkins
 - **Data & Reporting**: SQL Server, Power BI, Tableau
-- **Monitoring**: Prometheus, GPostman
+- **Monitoring**: Graylog, Postman, Docker
+- **SAAS**: Salesforce general
 
 ## 📜 Certifications
 - Microsoft Azure Fundamentals  
