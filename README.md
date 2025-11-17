@@ -4,7 +4,7 @@
 Welcome to my personal portfolio! This site showcases my work as a full stack software engineer, with hands-on experience in backend development, data integration, and intuitive UI/UX design. I built this portfolio to highlight my technical projects, certifications, and creative problem-solving across multiple domains—including AI, cloud, and logic optimization.
 
 ## 🚀 Live Site
-Visit the live portfolio here: [your-portfolio-link.netlify.app](https://your-portfolio-link.netlify.app)
+Visit the live portfolio here: [Github](https://rooted-syntax.github.io/Portfolio/)
 
 ## 🛠 Tech Stack
 - **Frontend**: HTML, CSS, JavaScript (or React/Vue if applicable)
