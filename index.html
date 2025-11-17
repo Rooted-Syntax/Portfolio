@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ashley's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <button id="darkModeToggle">🌙 Dark Mode</button>
 </head>
 <body>
+  <!-- Dark Mode Toggle Button -->
+  <button id="darkModeToggle">🌙 Dark Mode</button>
+
   <header>
     <h1>Ashley McGraw-Korthals</h1>
     <p>Full Stack Software Engineer | AI + Data Enthusiast</p>
-    <button id="darkModeToggle">🌙 Dark Mode</button>
     <nav>
       <a href="#projects">Projects</a>
       <a href="#about">About</a>
@@ -41,22 +42,24 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">ashleyrehder@oakland.edu</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/ashleym-k/</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/rooted-syntax</a></p>
+    <p>Email: <a href="mailto:ashleyrehder@oakland.edu">ashleyrehder@oakland.edu</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ashleym-k/" target="_blank">linkedin.com/in/ashleym-k</a></p>
+    <p>GitHub: <a href="https://github.com/rooted-syntax" target="_blank">github.com/rooted-syntax</a></p>
   </section>
 
   <footer>
     <p>© 2025 Ashley McGraw-Korthals. Built with ❤️ and caffeine.</p>
   </footer>
+
+  <!-- Dark Mode Script -->
   <script>
-  const toggle = document.getElementById("darkModeToggle");
-  toggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-    toggle.textContent = document.body.classList.contains("dark-mode")
-      ? "☀️ Light Mode"
-      : "🌙 Dark Mode";
-  });
-</script>
+    const toggle = document.getElementById("darkModeToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      toggle.textContent = document.body.classList.contains("dark-mode")
+        ? "☀️ Light Mode"
+        : "🌙 Dark Mode";
+    });
+  </script>
 </body>
 </html>
