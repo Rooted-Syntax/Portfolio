@@ -83,3 +83,14 @@ body.dark-mode button#darkModeToggle {
   background: #333;
   color: #fff;
 }
+#darkModeToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
