@@ -21,4 +21,4 @@ Visit the live portfolio here: [your-portfolio-link.netlify.app](https://your-po
 
 ---
 
-Feel free to fork this repo or reach out if you’d like to collaborate or chat about tech, data, or gaming strategy!
+Feel free to fork this repo or reach out if you’d like to collaborate or chat about tech, data, or gaming strategy! Maybe some gardening tips too
