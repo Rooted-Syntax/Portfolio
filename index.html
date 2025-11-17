@@ -49,5 +49,14 @@
   <footer>
     <p>© 2025 Ashley McGraw-Korthals. Built with ❤️ and caffeine.</p>
   </footer>
+  <script>
+  const toggle = document.getElementById("darkModeToggle");
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    toggle.textContent = document.body.classList.contains("dark-mode")
+      ? "☀️ Light Mode"
+      : "🌙 Dark Mode";
+  });
+</script>
 </body>
 </html>
