@@ -54,3 +54,32 @@ a {
   color: #0077ff;
   text-decoration: none;
 }
+/* Default light mode */
+body {
+  background-color: #fdfdfd;
+  color: #111;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #111;
+  color: #fdfdfd;
+}
+
+button#darkModeToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+body.dark-mode button#darkModeToggle {
+  background: #333;
+  color: #fff;
+}
